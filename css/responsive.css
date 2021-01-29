@@ -1,0 +1,982 @@
+/* ---- max-width : 1170px ------ */
+
+@media screen and (max-width: 1170px) {
+  html {
+    font-size: 60.5%;
+  }
+}
+
+/* ---- max-width : 1025 px ------ */
+
+@media screen and (max-width: 1025px) {
+  .mobileNavBar {
+    padding-bottom: 5% !important;
+  }
+
+  .mblLogo img {
+    max-width: 60%;
+  }
+
+  .toggleMblMenu {
+    height: 26rem !important;
+    /* height: auto; */
+  }
+
+  .mblNavLinks {
+    top: 7.8rem !important;
+  }
+}
+
+/* ---- min-width : 1025 px ------ */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .row {
+    width: 90rem;
+  }
+
+  h2 {
+    font-size: 3rem !important;
+  }
+
+  h2::after {
+    width: 5rem !important;
+    top: 95% !important;
+  }
+
+  h3 {
+    font-size: 2.5rem !important;
+  }
+
+  h4 {
+    font-size: 2rem !important;
+  }
+
+  .blogNumber h4 {
+    font-size: 2rem !important;
+  }
+
+  h5 {
+    font-size: 1.5rem !important;
+  }
+
+  p {
+    font-size: 1.3rem !important;
+    line-height: 1.8rem;
+  }
+
+  a {
+    font-size: 1.3rem !important;
+    font-weight: 500 !important;
+  }
+
+  .menuLinks li a {
+    font-weight: 600 !important;
+  }
+
+  .btnArrow a {
+    font-size: 2.5rem !important;
+  }
+
+  .topIntro .phone {
+    width: 27%;
+  }
+
+  .topIntro .email {
+    width: 37%;
+    margin: 1.5% 18.5% 1.5% 0;
+  }
+
+  .subMenu1,
+  .subMenu2,
+  .subMenu3,
+  .subMenu4,
+  .subMenu5 {
+    top: 174%;
+  }
+
+  .sliderText h1 {
+    font-size: 4rem;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: 2rem 2.5rem;
+  }
+
+  .btnHero {
+    padding: 1.5rem 2.5rem;
+  }
+
+  .sboxIcon i {
+    font-size: 4rem !important;
+  }
+
+  .priceBox b {
+    font-size: 4rem !important;
+  }
+
+  .priceBox ul li {
+    font-size: 1.2rem !important;
+    margin: 3% 0 !important;
+  }
+
+  .ideaContainer2 p {
+    width: 70%;
+  }
+
+  .teamBox span,
+  .projectDetail span,
+  .newsText ul li,
+  .newsText span {
+    font-size: 1.2rem;
+  }
+
+  .followIcons li a i {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+  }
+
+  .rightPostList li {
+    font-size: 1.1rem;
+  }
+
+  .lastFooterBox span {
+    font-size: 1.2rem;
+  }
+}
+
+/* ---- max-width : 768 px ------ */
+
+@media (max-width: 768px) {
+  .mobileNavBar {
+    display: block;
+  }
+}
+
+/* ---- min-width : 768 px ------ */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 45%;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h4 {
+    font-size: 3rem !important;
+  }
+
+  h5 {
+    font-size: 1.4rem !important;
+  }
+
+  p {
+    font-size: 1.3rem !important;
+  }
+
+  .mblNavLinks {
+    top: 6.5rem;
+  }
+
+  .mTitleDes p,
+  .pTitleDes p,
+  .teamTitleDes p,
+  .projectTitleDes p,
+  .newsTitleDes p {
+    width: 100%;
+    font-size: 1.6rem !important;
+  }
+
+  .row {
+    width: 65rem;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .mblNavLinks {
+    top: 5.8rem;
+  }
+
+  .mobileNavBar {
+    display: block;
+    padding-bottom: 6%;
+  }
+
+  .LoginReg {
+    padding-top: 15%;
+  }
+
+  .toggleMblMenu {
+    height: 27.5rem;
+    /* height: auto; */
+  }
+
+  .sliderText div:nth-child(1) {
+    margin: 25% 0% 0% 0%;
+  }
+
+  .sliderText h1 {
+    font-size: 3.5rem;
+  }
+
+  .sliderText p {
+    width: 90%;
+  }
+
+  .dots {
+    width: 10%;
+  }
+
+  .primaryServicesBox {
+    width: 49.2%;
+    margin: 1% 0% 2% 1.6%;
+  }
+
+  .primaryServicesBox:nth-child(3) {
+    margin-left: 0%;
+  }
+
+  .sboxIcon {
+    padding: 8% 0 0% 0;
+  }
+
+  .sboxIcon i {
+    font-size: 6rem;
+  }
+
+  .sboxTitle {
+    padding: 6% 0 3% 0;
+  }
+
+  .sboxTitle h5 {
+    font-size: 2.2rem !important;
+  }
+
+  .sboxDes {
+    padding: 0 0 0% 0;
+  }
+
+  .sboxDes p {
+    line-height: 3rem;
+    font-size: 1.8rem !important;
+  }
+
+  .sboxLink {
+    padding: 0 0 1% 0;
+  }
+
+  .sboxLink span a {
+    font-size: 1.8rem;
+  }
+
+  .span-1-of-2 {
+    width: 100%;
+  }
+
+  .btnTeam {
+    margin: 2% auto;
+  }
+
+  .blogBox:first-child {
+    margin-left: 0%;
+  }
+
+  .blogBox {
+    margin-right: 0%;
+  }
+
+  .blogBox:last-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .blogBox:nth-child(3) .blogNumber {
+    margin: 6% 0;
+  }
+
+  .blogBox:nth-child(4) .blogNumber {
+    margin: 6% 0;
+  }
+
+  .blogIcon i {
+    font-size: 3.2rem;
+  }
+
+  .missionContent p {
+    line-height: 2rem;
+  }
+
+  .priceBox {
+    padding: 2rem;
+  }
+
+  .priceBox b {
+    font-size: 3.5rem;
+  }
+
+  .priceBox ul li {
+    font-size: 1.1rem;
+  }
+
+  .btnPrice {
+    font-size: 1.3rem;
+    padding: 1.5rem 1.5rem;
+  }
+
+  .teamSocial {
+    top: 65%;
+    left: 13%;
+  }
+
+  .teamSocial li {
+    padding: 0 4%;
+  }
+
+  .teamSocial li a i {
+    font-size: 1.3rem;
+    /* width: 2rem;
+        height: 2rem; */
+    padding-top: 35%;
+  }
+
+  .teamBox span {
+    font-size: 1.3rem;
+  }
+
+  .projectBox:hover .projectDetail {
+    height: 75%;
+    top: 85.6%;
+  }
+
+  .newsText ul li {
+    display: block;
+  }
+
+  .newsText ul li:last-child {
+    margin-left: 7%;
+  }
+
+  .newsText ul li:last-child::before {
+    display: none;
+  }
+
+  .subscribeContainer {
+    width: 100rem;
+  }
+
+  .sbBox h4 {
+    font-size: 2rem !important;
+  }
+
+  #subscribeForm {
+    font-size: 1.2rem;
+  }
+
+  .followIcons li a i {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    padding-right: 0%;
+    padding-top: 23%;
+  }
+
+  .footerBox {
+    width: 49.2%;
+  }
+
+  .footerBox:nth-child(3) {
+    margin-left: 0%;
+  }
+
+  .lastFooterBox {
+    width: 49.2%;
+  }
+
+  .lastFooterBox ul {
+    width: 75%;
+  }
+
+  .lastFooterBox ul li a {
+    font-size: 1.5rem;
+  }
+
+  .btnBlack {
+    margin: auto;
+  }
+}
+
+/* ---- max-width : 768 px ------ */
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+
+  h3 {
+    font-size: 2rem !important;
+  }
+
+  h4 {
+    font-size: 3rem !important;
+  }
+
+  h5 {
+    font-size: 1.5rem !important;
+  }
+
+  p {
+    font-size: 1.3rem !important;
+  }
+
+  .row {
+    width: 65rem;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .mblNavLinks {
+    top: 5.8rem !important;
+  }
+
+  .mobileNavBar {
+    display: block;
+    padding-bottom: 8% !important;
+  }
+
+  .toggleMblMenu {
+    height: 27.5rem;
+    /* height: auto; */
+  }
+
+  .sliderText div:nth-child(1) {
+    margin: 25% 0% 0% 0%;
+  }
+
+  .sliderText h1 {
+    font-size: 3.5rem;
+  }
+
+  .sliderText p {
+    width: 90%;
+  }
+
+  .dots {
+    width: 10%;
+  }
+
+  .primaryServicesBox {
+    width: 49.2%;
+    margin: 1% 0% 2% 1.6%;
+  }
+
+  .primaryServicesBox:nth-child(3) {
+    margin-left: 0%;
+  }
+
+  .sboxIcon {
+    padding: 8% 0 0% 0;
+  }
+
+  .sboxIcon i {
+    font-size: 6rem;
+  }
+
+  .sboxTitle {
+    padding: 6% 0 3% 0;
+  }
+
+  .sboxTitle h5 {
+    font-size: 2.2rem !important;
+  }
+
+  .sboxDes {
+    padding: 0 0 0% 0;
+  }
+
+  .sboxDes p {
+    line-height: 3rem;
+    font-size: 1.8rem !important;
+  }
+
+  .sboxLink {
+    padding: 0 0 1% 0;
+  }
+
+  .sboxLink span a {
+    font-size: 1.8rem;
+  }
+
+  .span-1-of-2 {
+    width: 100%;
+  }
+
+  .btnTeam {
+    margin: 2% auto;
+  }
+
+  .blogBox:first-child {
+    margin-left: 0%;
+  }
+
+  .blogBox {
+    margin-right: 0%;
+  }
+
+  .blogBox:last-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .blogBox:nth-child(3) .blogNumber {
+    margin: 6% 0;
+  }
+
+  .blogBox:nth-child(4) .blogNumber {
+    margin: 6% 0;
+  }
+
+  .blogIcon i {
+    font-size: 3.2rem;
+  }
+
+  .missionContent p {
+    line-height: 2rem;
+  }
+
+  .priceBox {
+    padding: 2rem;
+  }
+
+  .priceBox b {
+    font-size: 3.5rem;
+  }
+
+  .priceBox ul li {
+    font-size: 1.1rem;
+  }
+
+  .btnPrice {
+    font-size: 1.3rem;
+    padding: 1.5rem 1.5rem;
+  }
+
+  .teamSocial {
+    top: 65%;
+    left: 13%;
+  }
+
+  .teamSocial li {
+    padding: 0 4%;
+  }
+
+  .teamSocial li a i {
+    font-size: 1.3rem;
+    /* width: 2rem;
+        height: 2rem; */
+    padding-top: 35%;
+  }
+
+  .teamBox span {
+    font-size: 1.3rem;
+  }
+
+  .projectBox:hover .projectDetail {
+    height: 75%;
+    top: 85.6%;
+  }
+
+  .newsText ul li {
+    display: block;
+  }
+
+  .newsText ul li:last-child {
+    margin-left: 7%;
+  }
+
+  .newsText ul li:last-child::before {
+    display: none;
+  }
+
+  .subscribeContainer {
+    width: 100rem;
+  }
+
+  .sbBox h4 {
+    font-size: 2rem !important;
+  }
+
+  #subscribeForm {
+    font-size: 1.2rem;
+  }
+
+  .followIcons li a i {
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    padding-right: 0%;
+    padding-top: 23%;
+  }
+
+  .footerSection {
+    text-align: center;
+  }
+
+  .footerAdress i,
+  .footerCall i,
+  .footerEmail i {
+    width: 100%;
+  }
+
+  .footerAdress p,
+  .footerCall p,
+  .footerEmail p {
+    margin-left: 0%;
+  }
+
+  .footerAdress i,
+  .footerCall i,
+  .footerEmail i {
+    margin-bottom: 3%;
+  }
+
+  .footerBox {
+    width: 49.2%;
+  }
+
+  .footerBox:nth-child(3) {
+    margin-left: 0%;
+  }
+
+  .lastFooterBox {
+    width: 49.2%;
+  }
+
+  .lastFooterBox ul {
+    width: 75%;
+  }
+
+  .lastFooterBox ul li a {
+    font-size: 1.5rem;
+  }
+
+  .btnBlack {
+    margin: auto;
+  }
+}
+
+/* ---- max-width : 481 px ------ */
+
+@media screen and (max-width: 481px) {
+  h2 {
+    font-size: 3rem !important;
+  }
+
+  html {
+    font-size: 40%;
+  }
+
+  .row {
+    width: 55rem;
+  }
+
+  .mobileNavBar {
+    padding-bottom: 7% !important;
+  }
+
+  .searchIcon,
+  .mblLogo,
+  .mobileMenu {
+    width: 32.26%;
+  }
+
+  .mblLogo img {
+    max-width: 55%;
+    margin-left: 25%;
+  }
+
+  .mobileMenu i {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding-top: 4%;
+  }
+
+  .mblNavLinks {
+    top: 5.4rem;
+  }
+
+  .sliderText h1 {
+    font-size: 2rem;
+  }
+
+  .sliderText p {
+    font-size: 1.5rem !important;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+  }
+
+  .btnHero {
+    padding: 1.5rem 1.5rem;
+  }
+
+  .dot1,
+  .dot2 {
+    font-size: 1.7rem;
+  }
+
+  .btnTeam {
+    padding: 2rem 2.5rem;
+  }
+
+  .missionContent {
+    text-align: center;
+  }
+
+  .missionContent h5 {
+    font-size: 2.5rem;
+  }
+
+  .missionContent p {
+    font-size: 1.6rem;
+  }
+
+  .mTitleDes p,
+  .pTitleDes p,
+  .teamTitleDes p,
+  .projectTitleDes p,
+  .newsTitleDes p {
+    width: 100%;
+  }
+
+  .missionBox h5 {
+    font-size: 3.5rem !important;
+  }
+
+  .missionBox p {
+    font-size: 1.5rem !important;
+  }
+
+  .priceBox h3 {
+    font-size: 3.5rem;
+  }
+
+  .priceBox b {
+    font-size: 5.5rem;
+  }
+
+  .priceBox ul li {
+    font-size: 2rem;
+  }
+
+  .priceBox ul li i {
+    font-size: 1.7rem;
+  }
+
+  .ideaContainer1 p,
+  .ideaContainer2 p {
+    font-size: 1.5rem !important;
+  }
+
+  .teamSocial {
+    top: 75%;
+    left: 33%;
+  }
+
+  .teamSocial li {
+    margin: 0 2%;
+  }
+
+  .teamSocial li a i {
+    font-size: 2.3rem;
+    width: 5rem;
+    height: 5rem;
+    padding-top: 30%;
+  }
+
+  .teamBox h5 {
+    font-size: 2.5rem;
+  }
+
+  .teamBox span {
+    font-size: 1.7rem;
+  }
+
+  .projectBox {
+    width: 100%;
+  }
+
+  .projectDetail {
+    top: 96.5%;
+    height: 30%;
+  }
+
+  .projectBox:hover .projectDetail {
+    top: 95.6%;
+    height: 35%;
+  }
+
+  .projectDetail h5 {
+    font-size: 2.5rem !important;
+  }
+
+  .newsText {
+    text-align: center;
+  }
+
+  .toggleMblMenu {
+    height: 25rem;
+  }
+
+  .sbBox:last-child h4 {
+    margin-bottom: 7%;
+  }
+
+  .subscribeSection {
+    position: inherit;
+    margin-bottom: -10%;
+    margin-top: -8%;
+    text-align: center;
+  }
+
+  #subscribeForm input {
+    width: 75%;
+    margin-right: 10%;
+  }
+
+  .sbBox p {
+    text-align: center;
+  }
+
+  .sbBox {
+    width: 100%;
+  }
+}
+
+/* ---- width : 320 px to 479 px ------ */
+
+@media (min-width: 320px) and (max-width: 479px) {
+  .row {
+    width: 45rem;
+  }
+
+  .mblLogo img {
+    max-width: 85%;
+    margin-left: 5%;
+  }
+
+  .mobileMenu i {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    padding-top: 5%;
+  }
+
+  .mobileNavBar {
+    padding-bottom: 10% !important;
+    padding-top: 2% !important;
+  }
+
+  .searchIcon i {
+    font-size: 2.5rem;
+    margin-top: 5%;
+  }
+
+  .toggleMblMenu {
+    height: 23rem;
+  }
+
+  .mblNavLinks {
+    top: 6.2rem !important;
+  }
+
+  .sliderContainer2,
+  .sliderSection2 {
+    height: 40rem;
+  }
+
+  .primaryServicesBox {
+    width: 100%;
+  }
+
+  .teamText ul li {
+    font-size: 1.6rem;
+  }
+
+  .ideaCintainerWrapper,
+  .ideaImage1 {
+    width: 100%;
+  }
+
+  .ideaCintainerWrapper {
+    float: none;
+    height: 67rem;
+  }
+
+  .ideaImage1 {
+    height: 67rem;
+    position: inherit;
+  }
+
+  .teamBox h5 {
+    font-size: 2.5rem;
+  }
+
+  .mTitleDes p,
+  .pTitleDes p,
+  .teamTitleDes p,
+  .projectTitleDes p,
+  .newsTitleDes p {
+    font-size: 1.5rem !important;
+  }
+
+  .projectBox:hover .projectDetail {
+    top: 99.6%;
+    height: 60%;
+  }
+
+  .newsText p {
+    font-size: 1.5rem;
+  }
+
+  .newsText span {
+    font-size: 1.7rem;
+  }
+
+  .subscribeSection {
+    position: inherit;
+    margin-bottom: -10%;
+    margin-top: -5%;
+    text-align: center;
+  }
+
+  .lastFooterBox {
+    width: 100%;
+  }
+
+  .lastFooterBox span {
+    margin-left: 23%;
+    transform: translateX(-23%);
+  }
+
+  .lastFooterBox ul {
+    margin-left: 25%;
+    transform: translateX(-15%);
+  }
+}
