@@ -394,7 +394,7 @@ nav {
   font-size: 10px;
 }
 
-.spinner>div {
+.spinner > div {
   background-color: #ff6c00;
   height: 100%;
   width: 6px;
@@ -424,7 +424,6 @@ nav {
 }
 
 @-webkit-keyframes sk-stretchdelay {
-
   0%,
   40%,
   100% {
@@ -437,7 +436,6 @@ nav {
 }
 
 @keyframes sk-stretchdelay {
-
   0%,
   40%,
   100% {
@@ -2632,6 +2630,15 @@ nav {
 .footerLast {
   border-top: 0.1rem solid rgba(255, 255, 255, 0.1);
   padding: 1% 0;
+}
+
+.footerLast .authorLink {
+  color: #ff5200;
+  text-decoration: none;
+}
+
+.footerLast .authorLink:hover {
+  text-decoration: underline;
 }
 
 .lastFooterBox span {

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Login or Signup</title>
     <!-- ------ page icon ------- -->
     <link rel="icon" href="../img/favicon.jpg" type="image/x-icon" />
     <!--------- google fonts work sans --------->
@@ -58,11 +58,11 @@
       <div class="row">
         <div class="topIntro">
           <div class="phone">
-            <i class="fa fa-phone"></i><span>Phone: +88018082605</span>
+            <i class="fa fa-phone"></i><span>Phone: +(98) 888 7777</span>
           </div>
           <div class="email">
             <i class="fa fa-envelope"></i
-            ><span>Email: yasarsamin57@gmail.com</span>
+            ><span>Email: sample-email@example.com</span>
           </div>
           <div class="socialLinks">
             <div class="faceBook">
@@ -135,10 +135,10 @@
               </ul>
             </li>
             <li class="subMenuContainer">
-              <a href="#">blog</a>
+              <a class="activeLink" href="login&signin.html">account</a>
             </li>
             <li class="subMenuContainer">
-              <a class="activeLink" href="./contact.html">contact</a>
+              <a href="../contact/contact.html">contact</a>
             </li>
             <li class="subMenuContainer">
               <a href="#"><i class="searchIcon fa fa-search"></i></a>
@@ -191,10 +191,12 @@
             <a href="#">projects <i class="fa fa-angle-down"></i></a>
           </li>
           <li>
-            <a href="#">blog <i class="fa fa-angle-down"></i></a>
+            <a href="login&signin.html"
+              >account <i class="fa fa-angle-down"></i
+            ></a>
           </li>
           <li>
-            <a class="activeLink" href="./contact.html"
+            <a class="activeLink" href="../contact/contact.html"
               >contact <i class="fa fa-angle-down"></i
             ></a>
           </li>
@@ -202,169 +204,36 @@
       </div>
     </nav>
 
-    <!---------- slider section ----------->
+    <!------------ container section ---------------->
 
-    <section class="contactSlider">
-      <div class="contactContainer">
-        <h3>contact us</h3>
-      </div>
-    </section>
-
-    <!---------- map section ----------->
-
-    <section class="mapSection">
+    <section class="LoginReg">
       <div class="row">
-        <div class="mapBox">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.2525394215318!2d90.46949382912047!3d23.711331299038054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b70b241c3b1f%3A0x6c1c4ea9e9c8e8d1!2sAsiatic%20Shopping%20Mall!5e0!3m2!1sen!2sbd!4v1598952151315!5m2!1sen!2sbd"
-            width="600"
-            height="450"
-            frameborder="0"
-            style="border: 0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
-        </div>
-      </div>
-    </section>
-
-    <!---------- contact section ----------->
-
-    <section class="contactSection">
-      <div class="row">
-        <div class="col1 span-1-of-2 contactInformation">
-          <h3>contact information</h3>
-          <div class="singleContactAddress">
-            <i class="fa fa-mobile"></i>
-            <p>
-              +855 962323584 <br />
-              +855 962323584
-            </p>
-          </div>
-          <div class="singleContactAddress">
-            <i class="fa fa-envelope-o"></i>
-            <p>
-              sample-email@example.com <br />
-              sample-email@example.com
-            </p>
-          </div>
-          <div class="singleContactAddress">
-            <i class="fa fa-location-arrow"></i>
-            <p>
-              Sangkat Teuk Laak II, Khan Toul Kork, <br />
-              Oknha Tep Phan, Singapore Flyer, Singapore
-            </p>
-          </div>
-        </div>
-        <div class="col1 span-1-of-2 messageBox">
-          <div class="inputBox">
-            <form action="#" method="POST">
-              <input
-                type="text"
-                name="first name"
-                placeholder="First Name *"
-                required
-              />
-              <input
-                type="text"
-                name="last name"
-                placeholder="Last Name *"
-                required
-              />
-              <input
-                type="text"
-                name="email"
-                placeholder="Email Address *"
-                required
-              />
-              <input
-                type="text"
-                name="phone"
-                placeholder="Your Phone"
-                required
-              />
-              <textarea
-                name="message"
-                placeholder="Message *"
-                id="messageBoxArea"
-                cols="30"
-                rows="10"
-              ></textarea>
-              <button class="btn btnHover btnMessage">send message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!------------ subscribe section ---------------->
-
-    <section class="subscribeSection">
-      <div class="row subscribeContainer">
-        <div class="col1 span-1-of-3 sbBox">
-          <h4>subscribe now</h4>
-          <form method="POST" action="#" id="subscribeForm">
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter your e-mail"
-              required
-            />
-            <button class="btnSubmit">submit</button>
+        <div class="formBox">
+          <span id="regHeader" class="formHeader">Register</span>
+          <span id="loginHeader" class="formHeader">Login</span>
+          <hr id="indicator" />
+          <form action="account.html" method="POST" class="regForm">
+            <input type="text" name="fname" placeholder="First Name" />
+            <input type="text" name="lname" placeholder="Last Name" />
+            <input type="text" name="Rusername" placeholder="Username" />
+            <input type="password" name="Rpassword" placeholder="Password" />
+            <button name="Rsubmit" class="btn btnHover btnForm">
+              registration
+            </button>
           </form>
-        </div>
-        <div class="col1 span-1-of-3 sbBox">
-          <h4>contact now</h4>
-          <p>
-            Call Us : +8801818082605 <br />
-            Email Us : yasarsamin57@gmail.com
-          </p>
-        </div>
-        <div class="col1 span-1-of-3 sbBox">
-          <h4>follow us</h4>
-          <ul class="followIcons">
-            <li>
-              <a
-                target="_blank"
-                title="Facebook Profile"
-                href="https://www.facebook.com/saminyasar004/"
-                ><i class="fa fa-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                title="Facebook Page"
-                href="https://www.facebook.com/saminyasar04/"
-                ><i class="fa fa-facebook"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                title="Twitter Profile"
-                href="https://twitter.com/SaminYa01891649"
-                ><i class="fa fa-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                title="Instagram Profile"
-                href="https://www.instagram.com/saminyasar04/"
-                ><i class="fa fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                title="Github Profile"
-                href="https://github.com/saminyasar004/"
-                ><i class="fa fa-github"></i
-              ></a>
-            </li>
-          </ul>
+          <form action="account.html" method="POST" class="loginForm">
+            <input type="text" name="Lusername" placeholder="Username" />
+            <i class="fa fa-user"></i>
+            <input type="password" name="Lpassword" placeholder="Password" />
+            <i class="fa fa-lock"></i>
+            <input type="checkbox" />
+            <label>remember me</label>
+            <label class="forgotPassword"
+              ><a href="#">forgot password?</a></label
+            >
+            <label class="needAccount"><a href="#">need an account?</a></label>
+            <button name="Lsubmit" class="btn btnHover btnForm">login</button>
+          </form>
         </div>
       </div>
     </section>
@@ -381,44 +250,19 @@
           </p>
           <ul class="footerIcons">
             <li>
-              <a
-                target="_blank"
-                title="Facebook Profile"
-                href="https://www.facebook.com/saminyasar004/"
-                ><i class="fa fa-facebook"></i
-              ></a>
+              <a href="#"><i class="fa fa-facebook"></i></a>
             </li>
             <li>
-              <a
-                target="_blank"
-                title="Facebook Page"
-                href="https://www.facebook.com/saminyasar04/"
-                ><i class="fa fa-facebook"></i
-              ></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
-              <a
-                target="_blank"
-                title="Twitter Profile"
-                href="https://twitter.com/SaminYa01891649"
-                ><i class="fa fa-twitter"></i
-              ></a>
+              <a href="#"><i class="fa fa-linkedin"></i></a>
             </li>
             <li>
-              <a
-                target="_blank"
-                title="Instagram Profile"
-                href="https://www.instagram.com/saminyasar04/"
-                ><i class="fa fa-instagram"></i
-              ></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
             </li>
             <li>
-              <a
-                target="_blank"
-                title="Github Profile"
-                href="https://github.com/saminyasar004/"
-                ><i class="fa fa-github"></i
-              ></a>
+              <a href="#"><i class="fa fa-behance"></i></a>
             </li>
           </ul>
         </div>
@@ -523,6 +367,33 @@
     </footer>
 
     <!------------ javascript section ---------------->
+
+    <script>
+      let regHeader = document.getElementById("regHeader");
+      let loginHeader = document.getElementById("loginHeader");
+      let indicator = document.getElementById("indicator");
+      let regForm = document.querySelector(".regForm");
+      let loginForm = document.querySelector(".loginForm");
+      let needAccount = document.querySelector(".needAccount");
+
+      regHeader.addEventListener("click", function () {
+        indicator.setAttribute("style", "margin-left:10%;");
+        regForm.setAttribute("style", "left:0%;");
+        loginForm.setAttribute("style", "right:-100%;");
+      });
+
+      needAccount.addEventListener("click", function () {
+        indicator.setAttribute("style", "margin-left:10%;");
+        regForm.setAttribute("style", "left:0%;");
+        loginForm.setAttribute("style", "right:-100%;");
+      });
+
+      loginHeader.addEventListener("click", function () {
+        indicator.setAttribute("style", "margin-left:54%;");
+        regForm.setAttribute("style", "left:-100%;");
+        loginForm.setAttribute("style", "right:0%;");
+      });
+    </script>
 
     <script src="../vendor/js/animated_circle.js"></script>
     <script src="../vendor/js/morphext.min.js"></script>
