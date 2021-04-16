@@ -6,5 +6,5 @@
 
 This website is created by [Samin Yasar][author]. You can find it [here][live].
 
-[author]: https://www.saminyasar.netlify.app/ "Samin Yasar Portfolio"
+[author]: https://saminyasar.netlify.app/ "Samin Yasar Portfolio"
 [live]: https://brigate.vercel.app/ "Live Preview"
